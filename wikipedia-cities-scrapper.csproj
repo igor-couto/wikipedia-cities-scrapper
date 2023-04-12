@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>wikipedia_cities_scrapper</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0-preview.4.20251.6"/>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.24"/>
+    <PackageReference Include="MongoDB.Driver" Version="2.11.0-beta2"/>
+  </ItemGroup>
+</Project>
